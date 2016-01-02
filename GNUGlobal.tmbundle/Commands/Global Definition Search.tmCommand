@@ -45,7 +45,7 @@ curWordText           =   ENV['TM_CURRENT_WORD']
 derLine               =   0
 derFile               =   nil
 searchWord            =   "mooseButt"
-scannerExp            =   /\w+\s+(\d+)\s+([\w\/\.]+)\s+.*/
+scannerExp            =   /\w+\s+(\d+)\s+([\w\/\.\-]+)\s+.*/
 matchArray            =   nil
 debugOutput           =   false
 
